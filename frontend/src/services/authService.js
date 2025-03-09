@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/auth";
+const API_URL = "https://event-management-planner.onrender.com/api/auth";
 
 export const registerUser = async (userData) => {
     try {
