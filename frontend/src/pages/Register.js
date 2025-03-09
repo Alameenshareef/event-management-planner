@@ -22,7 +22,7 @@ const Register = () => {
     setLoading(true);
 
     try {
-      await axios.post("http://localhost:3000/api/auth/register", { name, email, password });
+      await axios.post("https://event-management-planner.onrender.com/api/auth/register", { name, email, password });
       navigate("/login"); // Redirect after successful registration
     } catch (err) {
       setError(
