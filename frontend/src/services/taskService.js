@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "http://localhost:3000/api/tasks";
+const API_URL = "https://event-management-planner.onrender.com/api/tasks";
 
 // Helper function to get token from localStorage
 const getAuthToken = () => {
